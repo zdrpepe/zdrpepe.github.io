@@ -1,1 +1,9 @@
-body {background: url(content/images/font.png)};
+body {
+  background: url(/content/images/raspberry_1.gif);
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+}
