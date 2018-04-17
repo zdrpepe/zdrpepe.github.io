@@ -5,5 +5,6 @@ body {
 .blur {
   height: 100%;
   width: 100%;
+  -webkit-filter: blur(5px);
   filter: blur(5px);
 }
