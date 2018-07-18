@@ -11,5 +11,5 @@ body {
 
 h1 {
 	color: red;
-	filter: blur(3px);
+	filter: blur(2px);
 }
