@@ -13,3 +13,8 @@ h1 {
 	color: red;
 	filter: blur(2px);
 }
+
+.h {
+	filter: blur(1px);
+	color: blue;
+}
