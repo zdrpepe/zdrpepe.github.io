@@ -4,3 +4,5 @@ function myFunction() {
     x[i].style.display = "none";
   }
 }
+
+document.getElementById("h2").innerHTML = 5 + 6;
