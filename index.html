@@ -1,230 +1,579 @@
 <!DOCTYPE html>
+<!--
+	Moon by GetTemplates.co
+	URL: https://gettemplates.co
+-->
 <html lang="en">
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zabit</title>
+    <meta name="description" content="Core HTML Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Zabit</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Monsterrat:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 </head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+	<div class="boxed-page">
+		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
-      <a class="navbar-brand" href="#">Zabit bot</a>
-      <a class="btn btn-primary" href="#">Войти</a>
-    </div>
-  </nav>
+        
+        <a class="navbar-brand d-flex align-items-center"><!--href="/"-->
+            <span class="lnr lnr-menu"></span>
+        </a>
 
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Zabit_bot анализирует тысячи событий в реальном времени.</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link" href="#who-we-are">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>-->
+            </ul>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <!--<div class="col-12 col-md-6 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>-->
-              <div class="col-12 col-md-3">
-                <button type="button" class="btn btn-block btn-lg btn-primary" onClick="location.href='https://teleg.run/zabitBot'">Начать</button>
-              </div>
+    </div>
+    
+</nav>		<div class="jumbotron d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="display-2 mb-4">Zabit_bot</h1>
+    <p>
+      Анализирует тысячи событий в реальном времени при помощи <b>нейронных сетей.</b>
+      <br>Нейронная сеть обучается на <b>большом размеченном датасете</b>.
+      <br>Алгоритм отбора спортивных событий <b>подстраивается</b> под каждый вид спорта и чемпионат.
+    </p>
+    <button type="button" class="btn btn-primary" onClick="location.href='https://teleg.run/zabitBot'">Try it</button>
+  </div>
+
+
+
+
+</div>		<section id="gtco-who-we-are" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <div class="title-wrap">
+                <h2 class="section-title">Начни зарабатывать <br>используя алгоритмы машинного обучения</h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a <br> pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
             </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
+            
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="icons/animat-checkmark.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Simple and Clean</h5>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="icons/animat-customize.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Easy to Customize</h5>
+                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis.</p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="icons/animat-responsive.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Fully Responsive</h5>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. </p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
             </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-          </div>
+            <!-- /.row -->
         </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
-            </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-            <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
-            </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
+</section>		<!-- Counter Section -->
+<section id="gtco-counter" class="overlay bg-fixed" align="text-center">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
+        <div class="section-content">
+            <div class="row">
+                <!-- Counter Item -->
+                <div class="col-md-3 col-sm-6 counter-item">
+                    <i class="lnr lnr-users"></i>
+                    <span class="number" data-from="0" data-to="34" data-refresh-interval="100">14</span>
+                    <h4>Довольных клиентов</h4>
+                </div>
+                <!-- End of Counter Item -->
+                <!-- Counter Item -->
+                <div class="col-md-3 col-sm-6 counter-item">
+                    <i class="lnr lnr-briefcase"></i>
+                    <span class="number" data-from="0" data-to="32" data-refresh-interval="100">32</span>
+                    <h4>Поддержка 24/7</h4>
+                </div>
+                <!-- End of Counter Item -->
+                <!-- Counter Item -->
+                <div class="col-md-3 col-sm-6 counter-item">
+                    <i class="lnr lnr-heart"></i>
+                    <span class="number" data-from="0" data-to="38" data-refresh-interval="100">38</span>
+                    <h4>Позитивных отзывов</h4>
+                </div>
+                <!-- End of Counter Item -->
+                <!-- Counter Item -->
+                <div class="col-md-3 col-sm-6 counter-item">
+                    <i class="lnr lnr-rocket"></i>
+                    <span class="number" data-from="0" data-to="29" data-refresh-interval="100">29</span>
+                    <h4>Плюсов в ряд</h4>
+                </div>
+                <!-- End of Counter Item -->
             </div>
-          </form>
         </div>
-      </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer bg-light">
+</section>
+<!-- End of Counter Section -->		<!-- Features Section-->
+<section id="gtco-features" class="bg-white">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">
+                    All the  <span>need </span>that you <span>want</span>
+                </h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Features Holder-->
+                <div class="col-md-12 features-holder">
+                    <div class="row">
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-cog fs-40"></i>
+                            </div>
+                            <h4>Easy to Customize</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-frame-contract fs-40"></i>
+                            </div>
+                            <h4>Pixel Perfect</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-bubble fs-40"></i>
+                            </div>
+                            <h4>Full Support</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-magic-wand fs-40"></i>
+                            </div>
+                            <h4>Clean Design</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-clock fs-40"></i>
+                            </div>
+                            <h4>Ontime Project</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-thumbs-up fs-40"></i>
+                            </div>
+                            <h4>Built with SASS</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                    </div>
+                </div>
+                <!-- End of Features Holder-->
+            </div>
         </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </footer>
+</section>
+<!-- End of Features Section-->		<section id="gtco-section-featurettes" class="featurettes bg-white">
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!-- Section Title -->
+                    <div class="title-wrap">
+                        <h2 class="section-title">
+                            <b>Brand new</b> social media,<br> different than any other one
+                        </h2>
+                        <p class="section-sub-title">
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a <br>pharetra augue. Donec id elit non mi porta gravida at eget metus.
+                        </p>
+                    </div>
+                    <!-- End of Section Title -->
 
+                    <div class="featurettes-wrap text-left mb-4">
+
+                        <div class="row featurettes-item">
+
+                            <div class="col-md-4 offset-md-2 col-sm-6">
+                                <div class="my-5">
+                                    <span class="lnr lnr-camera fs-40 color-primary"></span>
+                                </div>
+                                <h4 class="mb-4">Прозрачная статистика за каждый игровой день</h4>
+                                <p>Система соберет статистику и оповестит вас в конце игрового для о результатах</p>
+                            </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
+
+                            <div class="col-md-4 offset-md-right-2 col-sm-6">
+                                <img class="my-5" src="img/app-profile-mockup.png" alt="">
+                            </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
+
+                        </div><!--/ .featurettes-item -->
+
+                    </div><!--/ .featurettes-wrap -->
+
+                    <div class="featurettes-wrap text-left">
+
+                        <div class="row featurettes-item">
+
+                            <div class="col-md-4 offset-md-2 col-sm-6">
+                                <img class="my-4" src="img/app-chat-mockup.png" alt="">
+                            </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
+
+                            <div class="col-md-4 offset-md-right-2 col-sm-6 mb-5">
+                                <div class="my-4">
+                                    <span class="lnr lnr-bubble fs-40 color-primary"></span>
+                                </div>
+                                <h4 class="mb-4">Отправка результатов в реальном времени</h4>
+                                <p>Бот сразу же опопвестит вас, как только ставка зайдет. Даже если событие еще не завершилось</p>
+                            </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
+
+                        </div><!--/ .featurettes-item -->
+
+                    </div><!--/ .featurettes-wrap -->
+
+                    
+
+                </div><!--/ .col-md-12 -->
+
+            </div><!--/ .row -->
+        </div>
+    </div><!--/ .container -->
+
+</section>		<!-- Blog Section -->
+<section id="gtco-blog" class="bg-grey">
+    <div class="container">
+        <div class="section-content">
+            <div class="title-wrap mb-5">
+                <h2 class="section-title">Latest <b>news</b></h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+            <div class="row">
+                <!-- Blog -->
+                <div class="col-md-12 blog-holder">
+                    <div class="row">
+                        <!-- Blog Item -->
+                        <div class="col-md-4 blog-item-wrapper">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="single.html"><img src="img/blog-1.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>CODE</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="single.html"><h4>Нейронные сети для более точного прогнозирования</h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-date">30 July 2019</p> /
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>Для более точного прогнозирования исходов мы используем нейронные сети. Сеть обучается на большом датасете. В датасете присутствуют большинство популярных чемпионатов и видов спорта</p>
+                                    </div>
+                                    <div class="blog-author">
+                                        <p>by Максим Гурнаж</p>
+                                    </div>
+                                    <div class="blog-share-wrapper">
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-twitter-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Blog Item -->
+                        <!-- Blog Item -->
+                        <div class="col-md-4 blog-item-wrapper">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog-2.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>SPORTS</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#"><h4>Анализируем все популярные виды спорта</h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-date"> June 2019</p> /
+                                        
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>Наш бот анализирует все популярные виды спорта. На данный момент мы анализируем данные по 4 видам спорта: Футбол, Хоккей, Теннис, Волейбол. </p>
+                                    </div>
+                                    <div class="blog-author">
+                                        <p>by Максим Гурнаж</p>
+                                    </div>
+                                    <div class="blog-share-wrapper">
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-twitter-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Blog Item -->
+                        <!-- Blog Item -->
+                        <div class="col-md-4 blog-item-wrapper">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#"><img src="img/blog-3.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>ECONOMY</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#"><h4>Коэффициенты</h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-date">30 May 2019</p> /
+                                        
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>Бот дает прогнозы с коэффициентом от 1.6 и выше. 60% всех прогнозируемых исходов с коэффииентом 1.9 </p>
+                                    </div>
+                                    <div class="blog-author">
+                                        <p>by Максим Гурнаж</p>
+                                    </div>
+                                    <div class="blog-share-wrapper">
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-facebook-square"></i>
+                                        </a>
+                                        <a class="blog-share" href="google.com">
+                                            <i class="fab fa-twitter-square"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Blog Item -->
+                    </div>
+                </div>
+                <!-- End of Blog -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Blog Section -->		<!-- Portfolio Section -->
+
+<!-- End of Portfolio Section -->		<section id="gtco-pricing" class="bg-grey">
+    <div class="container">
+        <div class="section-content">
+             <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">Pricing</h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="card-deck mb-3 text-center">
+                <div class="price-box card mb-4 box-shadow">
+                    <div class="card-header p-4">
+                        <h6 class="mb-0 text-orange font-weight-bold">BASIC</h6>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold">1 день</h2>
+                        <p class="mb-0">Подписка на бота на 1 день</p>
+                    </div>
+                    <div class="card-body p-4">
+                        
+                        <h2 class="card-title pricing-card-title mb-0 font-weight-bold">₽100</h2>
+                        <a href="#" class="btn btn-block btn-secondary btn-orange mt-4">Buy Now</a>
+                    </div>
+                </div>
+                <div class="price-box card mb-4 box-shadow">
+                    <div class="card-header p-4">
+                        <h6 class="mb-0 text-cyan font-weight-bold">PRO</h6>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold">7 дней</h2>
+                        <p class="mb-0">Подписка на бота на неделю</p>
+                    </div>
+                    <div class="card-body p-4">
+                        
+                        <h2 class="card-title pricing-card-title mb-0 font-weight-bold">₽500</h2>
+                        <a href="#" class="btn btn-block btn-secondary btn-cyan mt-4">Buy Now</a>
+                    </div>
+                </div>
+                <div class="price-box card mb-4 box-shadow">
+                    <div class="card-header p-4">
+                        <h6 class="mb-0 text-red font-weight-bold">PERFORMANCE</h6>
+                        <h2 class="display-4 p-2 mb-0 font-weight-bold">30 дней</h2>
+                        <p class="mb-0">Подписка на бота на месяц</p>
+                    </div>
+                    <div class="card-body p-4">
+                        <h2 class="card-title pricing-card-title mb-0 font-weight-bold">₽1500</h2>
+                        <a href="#" class="btn btn-block btn-secondary btn-red mt-4">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /END PRICING -->
+</section>		<!-- Client Section -->
+<section id="gtco-client" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">
+                    Used <b> technologies</b>
+                </h2>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row ">
+                <div class="col-md-2">
+                    <!-- Client Item -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-1.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item  -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Client Item -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-2.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Client Item  -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-3.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Client Item  -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-4.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item  -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Client Item  -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-5.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item  -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Client Item  -->
+                    <div class="client-item">
+                        <img class="img-responsive" src="img/client-6.png" alt=" ">
+                    </div>
+                    <!-- End of Client Item -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Client Section -->		<footer class="mastfoot mb-3 bg-white py-4 border-top">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
+         		<p class="mb-0">&copy; 2019 Zabit_bot.</p>
+         	</div>
+           
+            <div class="col-md-6">
+            	<nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
+	                <a class="nav-link" href="#">
+	                	<i class="icon-facebook"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="icon-twitter"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="icon-instagram"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="icon-linkedin"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="icon-youtube"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="icon-pinterest"></i>
+	                </a>
+	            </nav>
+            </div>
+            
+        </div>
+    </div>
+</footer>	</div>
+	
+</div>
+	<!-- External JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	<script src="vendor/countTo/jquery.countTo.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
 </body>
-
 </html>
